@@ -1,0 +1,165 @@
+.header{
+    background-color: #1877f2;
+    width: 100%;
+    height: 90px;
+}
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.logo{
+    width: 40%;
+    padding: 30px;
+    float: left;
+    
+}
+.login{
+    width: 50%;
+    padding-top: 10px;
+    float: right;
+    
+}
+.logo-text{
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+.login-label{
+    color: white;
+    font-size: 15px;
+}
+.login-controls{
+    padding-left: 130px;
+}
+.forgotten{
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 15px;
+}
+a:hover{
+    color: blue;
+}
+.submit-button{
+    color: white;
+    background-color: #4267b2;
+    height: 20px;
+    border-color: #29487d;
+}
+.submit-button:hover{
+    cursor: pointer;
+    color: #1877f2;
+    background-color: #fff;
+}
+.left-section{
+    width: 35%; 
+    float: left;
+    padding-left: 220px;
+    
+}
+.right-section{
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+.main-body{
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(white, #a8c7f5);
+    clear: left;
+}
+#image{
+    width: 481px;
+    
+}
+.para{
+    font-weight: bold;
+    font-size: 25px;
+    color: #4267b2;
+    margin-right: 50px;
+}
+h1{
+    padding-left: 110px;
+    font-size: 50px;
+    margin-top: 0;
+    color:#4267b2;
+}
+.right-section p{
+    padding-left: 110px;
+    font-size: 20px;
+    color: #4267b2;
+    margin-top: 20px;
+}
+.right-section form{
+    padding-left: 110px;
+}
+.line1 input{
+    height: 40px;
+    width: 194.5px;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border-color: #fff;
+    
+}
+.line2 input{
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border-color: #fff;
+}
+.line3 input{
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border-color: #fff;
+}
+h2{
+    padding-left: 110px;
+    color: gray;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.day{
+    direction: ltr;
+    margin-left: 110px;
+    margin-top: 5px;
+}
+select{
+    border-radius: 6px;
+}
+.radio{
+    padding-left: 105px;
+    margin-top: px;
+}
+.button{
+    margin-left: 110px;
+    margin-top: 10px;
+    width: 170px;
+    height: 50px;
+    font-size: 25px;
+    background-color:  #337cdb;
+    color: white;
+    border-radius: 15px;
+    border: 3px solid black;
+   
+}
+.right-section .terms{
+    font-size: small;
+    font-family: "Noto Sans", sans-serif;
+}
+.bold{
+    color: #1877f2;
+}
+.button:hover{
+    background-color: white;
+    color: #1877f2;
+    border-color: #1877f2;
+}

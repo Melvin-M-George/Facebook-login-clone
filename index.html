@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="./index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controls">
+                        <tr>
+                            <td><label class="login-label">Email or Mobile</label></td>
+                            <td><label class="login-label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="password"></td>
+                            <td><input class="submit-button" type="submit" value="Log In"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgotten" href="">Forgotten account?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you connect and share with the people in your life.</p>
+                <img id="image" src="./facebook image.png" alt="connect people">
+            </div>
+            <div class="right-section">
+                <h1>Create an account</h1>
+                <p>Its quick and easy.</p>
+                <form>
+                    <div class="line1">
+                        <input id="first"  type="text" placeholder="First name">
+                        <input id="sur"  type="text" placeholder="Surname">
+                    </div>
+                    <div class="line2">
+                        <input type="text" placeholder="Mobile number or email address">
+                    </div>
+                    <div class="line3">
+                        <input type="password" placeholder="New password">
+                    </div>
+                </form>
+                <div class="select">
+                    <h2>Birthday</h2>
+                <select class="day" name="birthday" id="birthday">
+                    <option value="">Day</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                </select>
+                <select class="month" name="month" id="">
+                    <option value="">Month</option>
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                    <option value="">Mar</option>
+                    <option value="">Apr</option>
+                    <option value="">May</option>
+                    <option value="">June</option>
+                    <option value="">July</option>
+                    <option value="">Aug</option>
+                    <option value="">Sep</option>
+                    <option value="">Oct</option>
+                    <option value="">Nov</option>
+                    <option value="">Dec</option>
+                </select>
+                <select class="year" name="year" id="">
+                    <option value="">Year</option>
+                    <option value="">1995</option>
+                    <option value="">1996</option>
+                    <option value="">1997</option>
+                    <option value="">1997</option>
+                    <option value="">1998</option>
+                    <option value="">1999</option>
+                    <option value="">2000</option>
+                    <option value="">2001</option>
+                    <option value="">2002</option>
+                    <option value="">2003</option>
+                    <option value="">2004</option>
+                </select>
+                </div>
+                <h2>Gender</h2>
+                <div class="radio">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+                <p class="terms">By clicking Sign Up, you agree to our <b class="bold">Terms, Data Policy <br/>and cookie Policy</b>. You may receive SMS notifications from<br/> us and can opt out at any time. </p>
+                <button class="button">Sign Up</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
